@@ -1,0 +1,30 @@
+{
+    "name": "Multichannel segmentation",
+    "version": "0.1.0",
+    "keywords": [
+      "segmentation",
+      "multichannel"
+    ],
+    "shortdesc": "DSS service (segmentation multichannel)",
+    "longdesc": "DSS service (segmentation multichannel)",
+    "tags": [
+      {
+        "name": "T1C",
+        "type": "MainImage",
+        "hint": "T1C MRI image",
+        "required": true
+      },
+      {
+        "name": "T2",
+        "type": "OverlayImage",
+        "hint": "T2 MRI image",
+        "required": true
+      },
+      {
+        "name": "Flair",
+        "type": "OverlayImage",
+        "hint": "Flair MRI image",
+        "required": true
+      }
+    ]
+  }
