@@ -15,6 +15,12 @@
         "required": true
       },
       {
+        "name": "T1",
+        "type": "OverlayImage",
+        "hint": "T1 MRI image",
+        "required": true
+      },
+      {
         "name": "T2",
         "type": "OverlayImage",
         "hint": "T2 MRI image",
